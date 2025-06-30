@@ -1,0 +1,8 @@
+Hello! My name is Mia and I made this chatbot for my Youth Organization!
+If you want to use this chatbot for your own use follow these steps:
+1. Run pip install -r requirements.txt
+2. Update the intent file using your training data
+3. Train the chatbot by running the training_model.py file
+4. Run the main.py file to start the server
+5. Open a browser and type the computer address that was set in main.py
+6. Enjoy your chatbot!
