@@ -53,7 +53,7 @@ async function sendMessage() {
   input.value = '';
 
   try {
-    fetch('https://your-backend-app.herokuapp.com/chat', { // <-- IMPORTANT: Update this URL!
+    fetch('https://miacoding.pythonanywhere.com', { // <-- IMPORTANT: Update this URL!
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
