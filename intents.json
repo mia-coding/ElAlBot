@@ -2,7 +2,7 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hey", "Heya", "Howdy", "Hi", "Hello", "Shalom", "Yo", "Hi elalgpt", "Hey sis", "What is your name", "Who are you", "What is you"],
+      "patterns": ["Hey", "Heya", "Howdy", "Hi", "Hello", "Shalom", "Yo", "Hi elalgpt", "Hey sis", "What is your name", "Who are you", "What is you", "Are you a"],
       "responses": [
         "Hey sister 💖 I'm elalgpt — your ElAl BBG guide! How can I support you in sisterhood today?"
       ]
@@ -350,7 +350,7 @@
       "tag": "fundraising",
       "patterns": ["How do I donate", "Do you have fundraisers", "Support Elal", "Give to the chapter"],
       "responses": [
-        "-----------"
+        "ElAl BBG hosts fundraisers throughout each term to give back to the community, support our Stand Up cause (which is usually voted upon by the chapter per term), and help chapter programming and regional events. Our Gizborit is in charge of money and fundraisers for the chapter, so for more information go to her! But typically we have some bake sales, GivingBBYODay activities, and other volunteer and fundraising opportunities!!"
       ]
     },
     {
