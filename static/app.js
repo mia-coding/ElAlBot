@@ -35,8 +35,6 @@ function appendMessage(text, sender, time = null) {
   chat.scrollTop = chat.scrollHeight;
 }
 
-  let sidebarVisible = true;
-
 async function sendMessage() {
   const userText = input.value.trim();
   if (!userText) return;
@@ -58,7 +56,7 @@ async function sendMessage() {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ message: userMessage }),
+        body: JSON.stringify({ message: userResponse }),
     })
     .then(response => response.json())
     .then(data => {

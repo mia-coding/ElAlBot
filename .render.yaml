@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: ElAlBot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    plan: free
