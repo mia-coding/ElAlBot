@@ -39,7 +39,7 @@
       "tag": "attire",
       "patterns": ["ElAl Attire", "What do I wear to BBYO", "Wear", "Clothes", "How should I dress", "Is BBYO formal", "Is ElAl casual"],
       "responses": [
-        "To our usual events and business meetings we have casual attire, where you should simply where what you are comfortable to have fun and meet new people in! Sometimes we have special themes for events and business meetings, but that will be communicated to you beforehand, don't worry! To installs, elections, and the Beau Dance there is moderately formal attire required, such as a dress or skirt and sweater! If you are ever nervous, just check with your sisters, everyone is very welcoming and loving!"
+        "To our usual events and business meetings we have casual attire, where you should simply wear what you are comfortable to have fun and meet new people in! Sometimes we have special themes for events and business meetings, but that will be communicated to you beforehand, don't worry! To installs, elections, and the Beau Dance there is moderately formal attire required, such as a dress or skirt and sweater! If you are ever nervous, just check with your sisters, everyone is very welcoming and loving!"
       ]
     },
     {
@@ -160,7 +160,7 @@
       "tag": "international_convention",
       "patterns": ["Tell me about International Convention", "What is International Convention", "IC", "International Events"],
       "responses": [
-        "International Convention is an amazing and unforgetable experience! This convention typically occurs in mid-February, and is a chance to meet BBYO teens from all around the world! With teens from over 60 countries and most states coming to this convention, people get to make new and wonderful connections, learn so much and be inspired by all of the speakers, feel the immense siblinghood of everyone together, and participate in meaningful and entertaining programs! Find out more at https://azabbg.bbyo.org/ic"
+        "International Convention is an amazing and unforgettable experience! This convention typically occurs in mid-February, and is a chance to meet BBYO teens from all around the world! With teens from over 60 countries and most states coming to this convention, people get to make new and wonderful connections, learn so much and be inspired by all of the speakers, feel the immense siblinghood of everyone together, and participate in meaningful and entertaining programs! Find out more at https://azabbg.bbyo.org/ic"
       ]
     },
     {
@@ -387,7 +387,7 @@
       "tag": "age",
       "patterns": ["How old do I need to be to join ElAl", "Old", "Age", "What age should I be", "How old do you have to be"],
       "responses": [
-        "ElAl BBG #1863 is home to Jewish teen girl members from 8th to 12th grade in Palo Alto, Menlo Park, and Los Altos Hills, that are full of energy, leadership, friendship, Jewish empowerment, sisterhood, and love, building lifelong connections and unforgettable memories through fun events and Jewish enrichment!"
+        "ElAl BBG #1863 is home to Jewish teen girl members from 8th to 12th grade in Palo Alto, Menlo Park, Los Altos, and Los Altos Hills, who are full of energy, leadership, friendship, Jewish empowerment, sisterhood, and love, building lifelong connections and unforgettable memories through fun events and Jewish enrichment!"
       ]
     },
     {
