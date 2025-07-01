@@ -45,7 +45,7 @@ async function sendMessage() {
   for (let i = 0; i < userList.length ; i++)
   {
     userResponse = userResponse+userList[i] + " ";
-    if ((userResponse.length % 8) === 0) {
+    if (((userResponse.length % 8) === 0) && userResponse.length > 8) {
       userResponse = userResponse + "/n";
     }
   }

@@ -56,7 +56,7 @@ class chat:
 
                 p = self.bag_of_words(sentence, words, show_details=False)
                 res = model.predict(np.array([p]))[0]
-                ERROR_THRESHOLD = 0.3  # Adjust as needed
+                ERROR_THRESHOLD = 0.4  # Adjust as needed
                 results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
                 if len(results) == 0: return []
                 results.sort(key=lambda x: x[1], reverse=True)
