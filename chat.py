@@ -15,7 +15,7 @@ class chat:
         def __init__(self):
                 self.run = False
                 self.greetings = "Hi, welcome! What question do you have?"
-                self.confused = ""#"Sorry, I'm not sure how to answer that, maybe try to be more specific? Email elalbbgnsiah@gmail.com if you have any questions and for more information!"
+                self.confused = "Sorry, I'm not sure how to answer that, maybe try to be more specific? Email elalbbgnsiah@gmail.com if you have any questions and for more information!"
 
                 self.lemmatizer = WordNetLemmatizer()
                 intents_file = open('intents.json').read()
@@ -68,9 +68,6 @@ class chat:
         def get_response(self, intents_list, intents_json):
                 if len(intents_list) == 0: return self.confused
                 tag = intents_list[0]['intent']
-                print('intent')
-                print(intents_list)
-                print(intents_json)
                 list_of_intents = intents_json['intents']
                 for i in list_of_intents:
                         if i['tag'] == tag:

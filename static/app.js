@@ -40,14 +40,23 @@ function appendMessage(text, sender, time = null) {
 async function sendMessage() {
   const userText = input.value.trim();
   if (!userText) return;
-  appendMessage(userText, 'user');
+  const userList = userText.split("\\s+");
+  let userResponse = "";
+  for (let i = 0; i < userList.length ; i++)
+  {
+    userResponse = userResponse+userList[i] + " ";
+    if ((userResponse.length % 8) === 0) {
+      userResponse = userResponse + "/n";
+    }
+  }
+  appendMessage(userResponse, 'user');
   input.value = '';
 
   try {
     const response = await fetch('/get_response', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: userText })
+      body: JSON.stringify({ message: userResponse })
     });
     const data = await response.json();
 

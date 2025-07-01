@@ -2,11 +2,51 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hey", "Heya", "Howdy", "Hi", "Hello", "Shalom", "Yo", "Hi elalgpt", "Hey sis"],
+      "patterns": ["Hey", "Heya", "Howdy", "Hi", "Hello", "Shalom", "Yo", "Hi elalgpt", "Hey sis", "What is your name", "Who are you", "What is you"],
       "responses": [
-        "Hey sister 💖 I'm elalgpt — your ElAl BBG guide!",
-        "Shalom! How can I support you in sisterhood today?",
-        "Hi! Ask me anything about ElAl BBG 💫"
+        "Hey sister 💖 I'm elalgpt — your ElAl BBG guide! How can I support you in sisterhood today?"
+      ]
+    },
+    {
+      "tag": "bruh",
+      "patterns": ["Bruh", "Broski", "Boy", "Bro", "Brah", "Bru", "Dude", "Buddy"],
+      "responses": [
+        "Hey! I'm not your bruh, I'm your ElAl BBG sisterhood guide! Do you have any questions?"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you", "Hows it going", "Whats up"],
+      "responses": [
+        "Hey sister 💖 I'm doing great, I'm here to help you out! How are you?"
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["Thanks", "Thank you", "I appreciate you", "Ty", "I'm grateful for you elalgpt", "Thank you so much", "You were really helpful"],
+      "responses": [
+        "I'm glad I could help you! Let me know if you have any more questions and hope to see you at our next ElAl event!! \uD83D\uDE01"
+      ]
+    },
+    {
+      "tag": "cost",
+      "patterns": ["How much does BBYO cost", "Cost", "Money", "Pay", "How much do I need to pay for events", "How much money to be a member"],
+      "responses": [
+        "Before becoming a member you don't need to pay event cost, since you are just trying out ElAl and cannot go to sleepover events and other more costly events yet! However, once becoming a member you need to pay about 5 dollars per event for the yummy food and fun activities present at each event to support our sisterhood! Becoming a member also has a one time payment of 250 dollars for lifetime membership which gives you summer programs, scholarship opportunities, and conventions for very reduced prices!!!"
+      ]
+    },
+    {
+      "tag": "attire",
+      "patterns": ["ElAl Attire", "What do I wear to BBYO", "Wear", "Clothes", "How should I dress", "Is BBYO formal", "Is ElAl casual"],
+      "responses": [
+        "To our usual events and business meetings we have casual attire, where you should simply where what you are comfortable to have fun and meet new people in! Sometimes we have special themes for events and business meetings, but that will be communicated to you beforehand, don't worry! To installs, elections, and the Beau Dance there is moderately formal attire required, such as a dress or skirt and sweater! If you are ever nervous, just check with your sisters, everyone is very welcoming and loving!"
+      ]
+    },
+    {
+      "tag": "when",
+      "patterns": ["When", "How often does ElAl meet", "When do you meet", "What day are events", "When can I go to ElAl"],
+      "responses": [
+        "ElAl typically has one event a week from 6pm to 9pm on Saturday or Friday, and one business meeting every other week from 7pm to 8:30pm on Tuesdays! Sometimes we even have a shabbat on Friday night AND a Saturday night event, and sometimes we have no events due to a regional convention or activites! So, make sure to checkout our Google Calendar to view when all of our events are at https://www.elal1863.org/general-calendar.html"
       ]
     },
     {
@@ -17,17 +57,31 @@
       ]
     },
     {
-      "tag": "basics",
-      "patterns": ["Great", "Good", "Chill", "Okay", "Ok","Cool", "Nice", "Wow", "Amazing", "Good to know", "Sounds like fun", "That sounds fun"],
+      "tag": "no_friends",
+      "patterns": ["What if I have no friends", "What if I don't know anyone", "Scared", "Nervous", "Afraid", "Anxious"],
       "responses": [
-        "Oh yeah! Glad to help!! Are there any other questions you have?"
+        "Don't worry if you don't know anyone in ElAl! ElAl is such a welcoming and fun environment that you will make amazing and lasting friendships for a lifetime and will feel at home in no time!! Just be yourself and I promise you're gonna have a lovely time, we're all so excited to meet you!!! \uD83D\uDC96"
+      ]
+    },
+    {
+      "tag": "basics",
+      "patterns": ["Yum", "Great", "Good", "Chill", "Okay", "Ok","Cool", "Nice", "Wow", "Amazing", "Good to know", "Sounds like fun", "That sounds fun"],
+      "responses": [
+        "Sounds great!! Are there any other questions you have?"
       ]
     },
     {
       "tag": "chapter_identity",
-      "patterns": ["ElAl", "Who is Elal BBG", "What is our chapter", "Tell me about Elal", "What does Elal mean"],
+      "patterns": ["What do I do", "What do we do", "ElAl", "Who is Elal BBG", "What is our chapter", "Tell me about Elal", "What does Elal mean"],
       "responses": [
         "ElAl BBG #1863 is a chapter in Central Region West (CRW) which mainly consists of the Bay Area, full of energy, leadership, friendship, Jewish empowerment, sisterhood, and love, where we build lifelong connections and unforgettable memories through fun events and Jewish enrichment! We're based in Palo Alto, Menlo Park, Los Altos Hills, and Los Altos, and serve teens from all over the area. Find our list and photos of current members at https://www.elal1863.org/current-members.html"
+      ]
+    },
+    {
+      "tag": "bichapters",
+      "patterns": ["Bichapters", "Events with other chapters", "Does ElAl have events with other girls", "Do we have events with the boy chapters", "Which chapters do we have events with", "Do we have lots of bichapters", "Do we have group events", "Meetings with other people"],
+      "responses": [
+        "ElAl has many intriguing and fun events whether on our own, with other BBG chapters, or with other AZA chapters! We have many bichapter shabbats or events, and many times we as a chapter can vote for the chapters we will have activities with! There are also regional events such as conventions, global shabbat, lives, and more, giving you a chance to connect with AZAs and BBGs outside of our chapter as well!!!"
       ]
     },
     {
@@ -46,16 +100,23 @@
     },
     {
       "tag": "join_chapter",
-      "patterns": ["How do I join", "Join Elal", "Become a member", "Sign up", "Start BBYO"],
+      "patterns": ["How do I join", "How can I join Elal","Join Elal", "Become a member", "Sign up", "Start BBYO"],
       "responses": [
         "Email elalmorah@gmail.com if you want to come to your first event or for even further information, remember coming to an event is a fun and amazing way to get to know people and the chapter, and participate in entertaining and meaningful events! It is definitely not binding to come to an event, and you can take as long as you want to choose to become a member, but doing so gives you more opportunities and fun! Once you are interested in becoming an official member of ElAl, these steps will walk you through how to accomplish this: https://www.elal1863.org/how-to-join.html \uD83D\uDC95 we are all so excited for you to join us!!!"
       ]
     },
     {
       "tag": "why_join",
-      "patterns": ["Why", "Why should I join", "Why join Elal", "Why become a member", "Why should I sign up", "Why start BBYO"],
+      "patterns": ["Why should I join", "Why join Elal", "Why become a member", "Why should I sign up", "Why start BBYO"],
       "responses": [
-        "Because -----"
+        "You should join ElAl and BBYO, because ElAl is an amazing opportunity to make wonderful friendships with fellow Jewish teens that last a lifetime, to have interesting and fun events and activities, to go on amazing summer programs and leadership trainings, and enrich and learn more about your Judaism! ElAl is so fun and welcoming, joining guarantees you a wonderful and meaningful time!"
+      ]
+    },
+    {
+      "tag": "why",
+      "patterns": ["Why", "why"],
+      "responses": [
+        "I'm not sure... please be more specific!"
       ]
     },
     {
@@ -78,14 +139,14 @@
       "tag": "kallah",
       "patterns": ["Tell me about Kallah", "What is Kallah", "Kallah", "Fall Regional Events"],
       "responses": [
-        "-----"
+        "Regional Kallah is a fun and educating yearly weekend-long convention in the fall semester, where the whole Central Region West, mainly consisting of the Bay Area, comes together for fun activities, community building, Jewish learning, and making strong connections between people! Closer to when Kallah is happening your high board should provide you with sign up information for Kallah! \uD83D\uDC97"
       ]
     },
     {
       "tag": "spring_convention",
       "patterns": ["Tell me about Spring Convention", "What is Spring Convention", "Spring Con", "Spring Regional Events"],
       "responses": [
-        "-----"
+        "Spring Convention is a wonderful and exciting yearly weekend-long convention in the late spring, where the whole Central Region West, mainly consisting of the Bay Area, comes together for fun activities to celebrate the end of the year, honor and say goodbye to our beloved seniors, and make so many friends! Closer to when Spring is happening your high board should provide you with sign up information for Spring! \uD83D\uDC97"
       ]
     },
     {
@@ -99,12 +160,12 @@
       "tag": "international_convention",
       "patterns": ["Tell me about International Convention", "What is International Convention", "IC", "International Events"],
       "responses": [
-        "-----"
+        "International Convention is an amazing and unforgetable experience! This convention typically occurs in mid-February, and is a chance to meet BBYO teens from all around the world! With teens from over 60 countries and most states coming to this convention, people get to make new and wonderful connections, learn so much and be inspired by all of the speakers, feel the immense siblinghood of everyone together, and participate in meaningful and entertaining programs! Find out more at https://azabbg.bbyo.org/ic"
       ]
     },
     {
       "tag": "summer_programs",
-      "patterns": ["BBYO Summer", "Tell me about BBYO summer programs", "ILTC", "CLTC", "International Kallah"," Israel Journey", "Passport Trip"],
+      "patterns": ["BBYO Summer", "Tell me about BBYO summer programs", "ILTC", "CLTC", "International Kallah", "Israel Journey", "Passport Trip"],
       "responses": [
         "BBYO Summer Programs are an amazing way to make new and lasting connections, and create memories that stick with you forever! Find out everything about BBYO summer programs such as CLTC, ILTC, and International Kallah at https://bbyosummer.org/trips/summer-experiences/destination-guide/"
       ]
@@ -118,7 +179,7 @@
     },
     {
       "tag": "nsiah_info",
-      "patterns": ["What is Nsiah", "Nsiah", "Who is the N’siah", "Tell me about the president", "Who’s in charge of the chapter"],
+      "patterns": ["What is Nsiah", "Nsiah", "N'siah", "Who is the N’siah", "What does the Nsiah do", "Tell me about the president", "Who’s in charge of the chapter"],
       "responses": [
         "The N’siah is our chapter president, she shall preside at all meetings and elections, call board meetings, oversee and organize the chapter board, have weekly communication with all members of her board and help them out, coordinate incoming events, promotes and attends Regional events/conventions, is an informal member of all committees, works with the S’ganit to plan the semester calendar, corresponds with her Regional Counterpart, and writes and sends parent e-mails 💕"
       ]
@@ -130,7 +191,7 @@
         "ElAl's brother chapter is SiWi (Simon Wiesenthal) AZA #2524, located in Palo Alto and Menlo Park as well!! We hold installs and some siblinghood events and shabbats with our brothers!"
       ]
     },
-        {
+    {
       "tag": "sister_chapter",
       "patterns": ["What is our Sister Chapter", "Sister Chapter", "JEM", "Who is our sister chapter", "Josephine Esther Mendler"],
       "responses": [
@@ -139,77 +200,77 @@
     },
     {
       "tag": "sganit_info",
-      "patterns": ["What is Sig", "Sig", "Sganit", "Who is the S'ganit", "Tell me about the vice president", "Who’s in charge of the programming"],
+      "patterns": ["What is Sig", "Sig", "S'ganit", "Sganit", "What does the Sganit do", "Who is the S'ganit", "Tell me about the vice president", "Who’s in charge of the programming"],
       "responses": [
         "The S’ganit is our chapter vice president, she shall work to encourage and in charge of planning 6-fold programming, promote and attend regional conventions, events, and summer programs, oversee and plan all event programming, work with the N’siah to plan the calendar, oversee the coordination of rides and housing for events, and fills in for N’siah when she is unable to fulfill her duties or not present at events, corresponds with her Regional Counter part, and helps support the N'siah in leading meetings and communicating regionally! 💕"
       ]
     },
     {
       "tag": "morah_info",
-      "patterns": ["What is Morah", "Who is the Morah", "Tell me about the recruitment manager", "Who’s in charge of recruitment and membership"],
+      "patterns": ["What is Morah", "Who is the Morah", "Morah", "What does the Morah do", "Tell me about the recruitment manager", "Who’s in charge of recruitment and membership"],
       "responses": [
         "The Morah is our chapter recruitment and membership officer, she works to promote the three R’s: Recruitment, Retention, and Re-education, encourage amd interact with newer members at prospective friendly events, promotes and attends regional events and conventions, plans at least one perspective event per term, corresponds with her regional counterpart, and leads meetings, communicates with region, and helps plan big-picture goals for ElAl 💕"
       ]
     },
      {
       "tag": "yehudiah_info",
-      "patterns": ["What is Yehudiah", "Who is the Yehudiah", "Tell me about the jewish enrichment officer", "Who’s in charge of jewish enrichment and judaic programming"],
+      "patterns": ["What is Yehudiah", "Yehudia", "Who is the Yehudiah", "What does the Yehudiah do", "Tell me about the jewish enrichment officer", "Who’s in charge of jewish enrichment and judaic programming"],
       "responses": [
         "The Yehudiah is our chapter judaic enrichment officer, she advocates and plans Judaism activities such as regional and chapter Kallah and shabbats, informs the chapter of Jewish holidays and ensures and leads Havdalah services on a regular basis, co-coordinates chapter Kallah, advocates for and is a resource of Judaism programming, plans Friday night services and chapter Judaism programs consistently, and corresponds with her regional counterpart 💕"
       ]
     },
      {
       "tag": "shlicha_info",
-      "patterns": ["What is Shli", "Shli", "Shlicha", "Who is the Sh'licha", "Tell me about the community service officer", "Who’s in charge of social action and community service"],
+      "patterns": ["What is Shli", "Shli", "Shlicha", "What does the Shlicha do", "Sh'licha", "Who is the Sh'licha", "Tell me about the community service officer", "Who’s in charge of social action and community service"],
       "responses": [
         "The Sh'licha is our chapter community service and social action officer, she plans a community service program or event at least twice a term, co-coordinates chapter Kallah, advocates for social action and community service events and programming, supports and promotes a chapter stand-up cause through fundraisers, awareness, and events, and corresponds with her regional counterpart 💕"
       ]
     },
      {
       "tag": "mazkirah_info",
-      "patterns": ["What is Maz", "Maz", "Who is the Mazkirah", "Tell me about the communications officer", "Who’s in charge of communication, helping members, and planning rides"],
+      "patterns": ["What is Maz", "Maz","What does the Mazkirah do", "Mazkirah", "Mazkira", "Who is the Mazkirah", "Tell me about the communications officer", "Who’s in charge of communication, helping members, and planning rides"],
       "responses": [
         "The Mazkirah is our chapter communications officer, she is responsible for sending out email about upcoming event and working to ensure high attendance, collecting RSVPs for events and planning rides to events that are further away for better accessibility, helping the Safranit with the Instagram, and corresponding with her regional counterpart 💕"
       ]
     },
      {
       "tag": "gizborit_info",
-      "patterns": ["What is Giz", "Giz", "Who is the Gizborit", "Tell me about the treasurer", "Who’s in charge of merch, fundraising, and payments"],
+      "patterns": ["What is Giz", "Giz", "Who is the Gizborit", "What does the Gizborit do", "Gizborit", "Tell me about the treasurer", "Who’s in charge of merch, fundraising, and payments"],
       "responses": [
         "The Gizborit is our chapter treasurer, she promotes and oversees all chapter fundraisers with at least one per term and preferable more, manages chapter funds and collects event cost, works with chapter N’siah and Advisor to ensure chapter funds are in a good place, helps facilitate donations to our chapter stand-up cause, giving BBYO day, and promotes regional fundraisers, makes sure all members are reimbursed for buying items for the chapter, and corresponds with her regional counterpart 💕"
       ]
     },
      {
       "tag": "katvanit_info",
-      "patterns": ["What is Kat", "Kat", "Who is the Katvanit", "Tell me about the recording secretary", "Who’s in charge of business meetings and meeting minutes, helping members, and planning rides"],
+      "patterns": ["What is Kat", "Kat", "What does the Katvanit do", "Katvanit", "Who is the Katvanit", "Tell me about the recording secretary", "Who’s in charge of business meetings and meeting minutes, helping members, and planning rides"],
       "responses": [
         "The Katvanit is our chapter recording secretary, she is responsible for planning all business meetings and making them fun and full of attendance, taking minutes at all meetings, working with the N’siah to choose meeting themes, dress ups, and food for the chapter, and organizing and carrying out chapter pop polls 💕"
       ]
     },
      {
       "tag": "safranit_info",
-      "patterns": ["What is Saf", "Saf", "Who is the Safranit", "Tell me about the photographer and historian for the chapter", "Who’s in charge of the social media, Instagram, facebook, tiktok, and taking photos for the chapter"],
+      "patterns": ["What is Saf", "Saf", "What does the Safranit do", "Safranit", "Who is the Safranit", "Tell me about the photographer and historian for the chapter", "Who’s in charge of the social media, Instagram, facebook, tiktok, and taking photos for the chapter"],
       "responses": [
         "The Safranit is our chapter photographer and historian, she is responsible for taking pictures at every event, uploading pictures onto a shared album so they are accessible for the rest of the chapter, and running the chapter Instagram and facebook! 💕"
       ]
     },
      {
       "tag": "yomo_info",
-      "patterns": ["What is Yomo", "Yomo", "Who is the Yoramit Machshev", "Tell me about the website manager for the chapter", "Who’s in charge of the chapter website and technical aspects"],
+      "patterns": ["What is Yomo", "Yomo", "Who is the Yoramit Machshev", "What does the Yomo do", "Yoramit Machshev", "Tell me about the website manager for the chapter", "Who’s in charge of the chapter website and technical aspects"],
       "responses": [
         "The Yoramit Machshev (YoMo) is our chapter website manager, she updates and enhances El Al’s website by adding current members, fixing the current board, updating new traditions, adding more information, making the website more fun, and more, and supports the Safranit in adding photos to the website 💕"
       ]
     },
      {
       "tag": "chaichanit_info",
-      "patterns": ["What is Chai Chanit", "Hai Hanit", "Who is the Chai Chanit", "Tell me about the happy sunshine girl", "Who’s in charge of birthday gifts and thank you cards"],
+      "patterns": ["What is Chai Chanit", "What does the Chay Chanit do", "Chai Chanit", "Hai Hanit", "Who is the Chai Chanit", "Tell me about the happy sunshine girl", "Who’s in charge of birthday gifts and thank you cards"],
       "responses": [
         "The Chai Chanit is our chapter's Happy Sunshine Girl, she makes thank-you cards for parent hosts and drivers, writes get well cards for the chapter, creates birthday presents for chapter members, and works to keep ElAl a fun and loving chapter! 💕"
       ]
     },
      {
       "tag": "madricha_info",
-      "patterns": ["Madricha", "Who is the Madricha", "Tell me about the Parliamentarian and past Nsiah", "Who’s in charge of being a new advisor to the N'siah and chapter"],
+      "patterns": ["Madricha", "Who is the Madricha", "What does the Madricha do", "Tell me about the Parliamentarian and past Nsiah", "Who’s in charge of being a new advisor to the N'siah and chapter"],
       "responses": [
         "The Madricha is our chapter's Parliamentarian and usually the immediate past N'siah, she is a guiding hand and advisor for the new N'siah as well as the whole board and chapter! 💕"
       ]
@@ -240,28 +301,28 @@
       "tag": "chapter_mascot",
       "patterns": ["Stewey", "Do we have a mascot", "What’s our animal", "Elal mascot"],
       "responses": [
-        "Yes! We have a mascot and his name is Stewey the Frog!! You can find more fun and interesting ElAl traditions at https://www.elal1863.org/history--traditions.html"
+        "We have a mascot and his name is Stewey the Frog!! You can find more fun and interesting ElAl traditions at https://www.elal1863.org/history--traditions.html"
       ]
     },
     {
       "tag": "chapter_colors",
       "patterns": ["Do we have chapter colors", "What’s our colors", "Elal colors"],
       "responses": [
-        "Yes! We have Chapter colors and they are pink and black!! You can find more fun and interesting ElAl traditions at https://www.elal1863.org/history--traditions.html"
+        "We have Chapter colors and they are pink and black!! You can find more fun and interesting ElAl traditions at https://www.elal1863.org/history--traditions.html"
       ]
     },
     {
       "tag": "chapter_foods",
       "patterns": ["Do we have chapter foods", "What’s our foods", "Elal foods"],
       "responses": [
-        "Yes! We have different Chapter foods! Our chapter dinner is mac n cheese, dessert is chocolate covered strawberries, snack is pita chips and hummus, and breakfast is chocolate chip strawberry pancakes!!"
+        "We have different Chapter foods! Our chapter dinner is mac n cheese, dessert is chocolate covered strawberries, snack is pita chips and hummus, and breakfast is chocolate chip strawberry pancakes!!"
       ]
     },
     {
       "tag": "bbyo_info",
-      "patterns": ["What is BBYO", "Tell me about BBYO", "Is this a Jewish group", "What's AZA", "What does BBYO stand for"],
+      "patterns": ["What is BBYO", "Tell me about BBYO", "Is this a Jewish group", "Men", "What about men", "What's AZA", "What does BBYO stand for"],
       "responses": [
-        "BBYO stands for B'nai B'rith Youth Organization and is the leading pluralistic Jewish teen movement worldwide. BBG is the girls order, and AZA is the boys order — together we’re a family of leaders, changemakers, and friends!"
+        "BBYO stands for B'nai B'rith Youth Organization and is the leading pluralistic Jewish teen movement worldwide. BBG is the girls order, and AZA is the boys order — together we’re a family of leaders, changemakers, and friends! BBGs in the Palo Alto, Menlo Park, Los Altos Hills, and Los Altos areas can join ElAl and AZAs in these areas should contact SiWi!"
       ]
     },
     {
@@ -280,7 +341,7 @@
     },
     {
       "tag": "social_media",
-      "patterns": ["Social Media", "Communication", "What's your Instagram", "How can I find the social media", "Where can I follow Elal", "TikTok", "Snapchat", "Snap", "FB", "Facebook group"],
+      "patterns": ["Insta", "What's the Insta and Snap","Social Media", "Communication", "What's your Instagram", "Where can I follow Elal", "TikTok", "Snapchat", "Snap", "FB", "Facebook group"],
       "responses": [
         "Follow us on Instagram @elalbbg 💖, Snapchat @elal.bbg, and Twitter @ELALBBG1863 for amazing pictures from events, live elections updates, and so much more! Ask to join our members-only Facebook group too at @El Al BBG #1863!"
       ]
@@ -289,7 +350,7 @@
       "tag": "fundraising",
       "patterns": ["How do I donate", "Do you have fundraisers", "Support Elal", "Give to the chapter"],
       "responses": [
-        "We run fundraisers like -----"
+        "-----------"
       ]
     },
     {
@@ -309,7 +370,7 @@
       ]
     },
     {
-      "tag": "miayair",
+      "tag": "mia_yair",
       "patterns": ["Mia", "Mia Yair", "Yair", "Mia Y", "MY", "Do you know mia", "Who created you", "Creator", "Programmer", "Who coded you"],
       "responses": [
         "Mia Yair created me in 2025 and hopes she can continue to support her amazing chapter through the years using me, your very own ElAl BBG AI guide!"
@@ -317,9 +378,9 @@
     },
     {
       "tag": "more_help",
-      "patterns": ["Help me", "Contact", "Answers", "Solutions" ,"I'm confused", "Who can I contact for more solutions and answers", "Where can I contact someone to answer more of my questions"],
+      "patterns": ["Help me", "Contact", "Answers", "Solutions", "I'm confused", "Who can I contact for more solutions and answers", "Where can I contact someone to answer more of my questions"],
       "responses": [
-        "Sorry that I couldn't help you! Email elalbbgnsiah@gmail.com if you have any questions and for more information!"
+        "Sorry that I couldn't help you! Email elalbbgnsiah@gmail.com if you have any questions I couldn't answer and for more information, or try to be more specific with your questions, I want to help you out!"
       ]
     },
     {
@@ -331,7 +392,7 @@
     },
     {
       "tag": "location",
-      "patterns": ["Where is ElAl", "Where do you have to live", "What school do you have to go to for ElAl", "What cities should I be in", "Cities", "Where", "Location", "ElAl Locations", "Texas", "New York", "Live"],
+      "patterns": ["What is the Los Altos chapter", "What is the Palo Alto chapter", "What is the Menlo Park chapter", "Los Altos", "Menlo Park", "Palo Alto", "Los Altos Hills", "Where is ElAl", "Where do you have to live", "What school do you have to go to for ElAl", "What cities should I be in", "Cities", "Where", "Location", "ElAl Locations", "Texas", "New York", "Live"],
       "responses": [
         "ElAl BBG is based in Palo Alto, Menlo Park, Los Altos Hills, and Los Altos, for Jewish teen girls from 8th to 12th grade, and consists of amazing and fun activities and Judaic enrichment!"
       ]
