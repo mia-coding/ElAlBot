@@ -51,7 +51,7 @@ async function sendMessage() {
   input.value = '';
 
   try {
-    fetch('https://miacoding.pythonanywhere.com/chat', { // <-- IMPORTANT: Update this URL!
+    fetch('https://elalgpt.onrender.com/chat', { // <-- IMPORTANT: Update this URL!
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
