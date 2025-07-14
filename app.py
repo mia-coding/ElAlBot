@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, jsonify
-from chat import chat
+from chat import get_chatbot_instance
 
 app = Flask(__name__)
-c = chat()
+c = get_chatbot_instance()
 
 def get_app():
     return app

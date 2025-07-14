@@ -9,5 +9,5 @@ CONFIG_DEBUG = True
 
 if __name__ == '__main__':
     a = get_app()
-    a.run(debug=False, host='0.0.0.0', port=10000)
-    #a.run(host=CONFIG_SERVER_URL, port=int(CONFIG_SERVER_PORT), debug=CONFIG_DEBUG, threaded=CONFIG_THREADED)
+    #a.run(debug=False, host='0.0.0.0', port=10000)
+    a.run(host=CONFIG_SERVER_URL, port=int(CONFIG_SERVER_PORT), debug=CONFIG_DEBUG, threaded=CONFIG_THREADED)
