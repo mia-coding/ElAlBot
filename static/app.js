@@ -51,20 +51,6 @@ async function sendMessage() {
   input.value = '';
 
   try {
-    fetch('https://elalgpt.onrender.com/chat', { // <-- IMPORTANT: Update this URL!
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ message: userResponse }),
-    })
-    .then(response => response.json())
-    .then(data => {
-        // Handle bot response
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
     const response = await fetch('/get_response', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
