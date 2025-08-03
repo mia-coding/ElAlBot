@@ -30,30 +30,30 @@
     },
     {
       "tag": "cheers",
-      "patterns": ["What are cheers", "I dont know cheers", "How to find cheers", "What do we do after havdalah", "cheers", "Come fly with us"],
+      "patterns": ["What are cheers", "I dont know cheers", "How to find cheers", "What do we do after havdalah", "chants", "cheers", "Come fly with us"],
       "responses": [
-        "cheer ------"
+        "After Havdalah every Saturday night, ElAl sings cheers! To fully understand and experience cheers you must come to an event to see what it's like, but it's super fun and engaging! Learn the lyrics to all of our cheers here: https://docs.google.com/forms/d/e/1FAIpQLSfQ2Whr4RsWR_SXVA7HBwhuOoITr6HItaVfg4MaMMQXkGPBgA/viewform" 
       ]
     },
     {
       "tag": "biz_meetings",
       "patterns": ["What are business meetings", "Biz meetings", "Tuesday evening", "Where are business meetings", "What do we do at board meetings", "Can non board members come to biz meetings"],
       "responses": [
-        "biz ------"
+        "Buisness meetings occur every other Tuesday night, usually from 7 to 8:30! Buisness meetings are where board members share their accomplishments and contribution, and the chapter reviews past events and ideas for new ones. You do not have to be on board to come to buisness meetings and they are a wonderful way to get more involved in the chapter and see your amazing sisters during the week as well!"
       ]
     },
     {
       "tag": "advice",
-      "patterns": ["Whats the best advice you could offer to"],
+      "patterns": ["Whats the best advice you could offer to", "Advice", "Give me tips", "Whats a good elal tip you would give me"],
       "responses": [
-        "advice ------"
+        "The more you give to ElAl the more you get back! Even if you are scared at first, you should immerse yourself, put effort into our amazing chapter, and try new things, because you will get lifelong friends, amazing memories and experiences, and a stronger and comforting connection to Judaism!"
       ]
     },
     {
       "tag": "new_member",
-      "patterns": ["New member"],
+      "patterns": ["New member", "I'm new", "What do I do if I just joined", "What do I do if I'm new and dont know anything"],
       "responses": [
-        "faq new member ------"
+        "Congrats on joining ElAl, the best chapter in the region, and we are so happy that you are a new member of our sisterhood! If you are confused or nervous about being new that is totally okay and understandable, but everyone is here to support you! If you have any questions you can ask me, reach out to our N'siah (President) at elalbbgnsiah@gmail.com, or check out our new member FAQ at https://www.elal1863.org/faq.html"
       ]
     },
     {
