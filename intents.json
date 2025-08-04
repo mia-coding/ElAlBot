@@ -427,7 +427,7 @@
     },
     {
       "tag": "L",
-      "patterns": ["L", "you are an l", "u an L", "you are L"],
+      "patterns": ["you are an L"],
       "responses": [
         "You are a bigger L \uD83D\uDE02"
       ]
