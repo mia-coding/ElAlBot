@@ -419,6 +419,13 @@
       ]
     },
     {
+      "tag": "sophia_kim",
+      "patterns": ["Sophia", "Sophia Kim", "Kim", "Sophia K", "SK", "Do you know sophia", "Who is sophia"],
+      "responses": [
+        "Sophia Kim is ElAl's greatest friend and amazing supporter!"
+      ]
+    },
+    {
       "tag": "fav_member",
       "patterns": ["who is your favorite member", "fav member", "favorite elal member", "favorite member of el al", "best member", "what is the best member"],
       "responses": [
