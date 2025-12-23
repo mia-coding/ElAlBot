@@ -1,4 +1,5 @@
-  "intents": [
+{
+"intents": [
     {
       "tag": "greeting",
       "patterns": ["Hey", "Heya", "Howdy", "Hi", "Hello", "Shalom", "Yo", "Hi elalgpt", "Hey sis", "What is your name", "Who are you", "What is you", "Are you a"],
@@ -449,7 +450,7 @@
       "tag": "fav_position",
       "patterns": ["best position", "what is the best board position", "who is your favorite board position", "fav position", "favorite position"],
       "responses": [
-        "The best board position by far in my opinion is Yomo although it's gone now, though I might be biased lol... What is your favorite board position?"
+        "All of the positions on board are equally amazing and important, and the chapter wouldn't be the same without every one of them! Though Yomo was definetly my favorie position lol, what is your favorite board position?"
       ]
     },
     {
