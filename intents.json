@@ -420,7 +420,7 @@
     },
     {
       "tag": "sophia_kim",
-      "patterns": ["Sophia", "Sophia Kim", "Kim", "Sophia K", "SK", "Do you know sophia", "Who is sophia"],
+      "patterns": ["Sophia", "Sophia Kim", "Kim", "Sophia K", "SK", "Do you know sophia", "Who is sophia", "soph", "sophia kim"],
       "responses": [
         "Sophia Kim is ElAl's greatest friend and amazing supporter!"
       ]
@@ -429,7 +429,7 @@
       "tag": "fav_member",
       "patterns": ["who is your favorite member", "fav member", "favorite elal member", "favorite member of el al", "best member", "what is the best member"],
       "responses": [
-        "Mia Yair and Charlotte Kofman are my favorite member of course! Hopefully they're yours too \uD83D\uDE09"
+        "Mia Yair and Charlotte Kofman are my favorite members of course! Hopefully they're yours too \uD83D\uDE09"
       ]
     },
     {
